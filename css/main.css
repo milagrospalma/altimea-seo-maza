@@ -1,0 +1,109 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white-nav {
+  background-color: white;
+}
+
+.nav-below .logo {
+  color: #2ECC71;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.nav-below .nav-item a{
+  padding: 0 1em;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #ABB2B9;
+}
+
+.nav-below a:hover, .nav-below a:active {
+  color: #2ECC71;
+}
+
+.btn-green {
+  background-color: #28B463;
+  color: white;
+  font-size: 0.7em;
+}
+
+.btn-green:hover {
+  background-color: #28B463;
+  color: white;
+}
+
+.bg-gray {
+  background-color: #F8F9F9;
+}
+
+.title-hero {
+  font-weight: 700;
+  color: #2C3E50;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.orange-color {
+  color: #FF5733;
+}
+
+.gray-text {
+  color: #566573;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+.items-lorem {
+  margin: 1.5em 0;
+}
+
+.items-lorem .orange-color {
+  font-weight: 700;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.btn-orange {
+  background-color: #FF5733;
+  text-transform: capitalize;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.hero {
+  padding: 2em;
+}
+
+.hero-image {
+  padding: 2em;
+}
+
+@media (min-width: 768px) {
+  .nav-below .logo {
+    font-size: 1em;
+  }
+
+  .title-hero {
+    font-size: 3.5em;
+  }
+
+  .bg-gray {
+    height: 70vh;
+  }
+
+  .hero {
+    padding: 0;
+    padding-top: 4em;
+  }
+
+  .hero-image {
+    padding: 0;
+    padding-left: 1em;
+    padding-top: 6em;
+  }
+}
+
+
+
